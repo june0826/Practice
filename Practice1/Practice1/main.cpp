@@ -2,7 +2,7 @@
 
 void apply(void(*fn)(void*, void*), void* arg)
 {
-	(*fn)("¿Ã∏ß", arg);
+	(*fn)("name", arg);
 }
 void print(void* name, void* number)
 {
